@@ -16,5 +16,7 @@ targetPose: 6x1 twist representing the target pose
 The function is expected to return a 1x6 vector of joint variables. To be acceptable, a solution will have to:
 • Position the robot’s end effector within 1e-6 of the target pose (measured as the norm of the difference
 between targetPose and the twist representing the final pose returned by the solver).
-• Not contain joint values beyond the joint limits. For the TX-40 robot, the joint limits are:
+• Not contain joint values beyond the joint limits. For the TX-40 robot, the joint limits are:  
+
+![alt text] (https://github.com/DhirajRouniyar/Assets/blob/main/Images/Table_dynamics.png)
 
