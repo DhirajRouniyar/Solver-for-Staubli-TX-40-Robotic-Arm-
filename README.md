@@ -18,5 +18,5 @@ The function is expected to return a 1x6 vector of joint variables. To be accept
 between targetPose and the twist representing the final pose returned by the solver).
 • Not contain joint values beyond the joint limits. For the TX-40 robot, the joint limits are:  
 
-![alt text](https://github.com/DhirajRouniyar/Assets/blob/main/Images/Table_dynamics.png)
+![Table](https://github.com/DhirajRouniyar/Assets/blob/main/Images/Table_dynamics.png)
 
